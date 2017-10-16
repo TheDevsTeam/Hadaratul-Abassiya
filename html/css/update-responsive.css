@@ -1,0 +1,85 @@
+/**********************************************RESPONSIVE 480 START**********************************************/
+@media (max-width: 480px) {
+.mainnav {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.mainwrapper {
+	max-width: 100%;
+	width: 100%;
+}
+.banner {
+	width: 100%;
+	max-width: 100%;
+	background-size: cover;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.nivo-caption {
+	display: none !important;
+}
+.bodywrapper {
+	padding: 0 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#horizontal-tabs ul.tabs li {
+	font-size: 12px !important;
+}
+.newslettercon .news-letter {
+	width: 100%;
+}
+.footertop {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 20px 10px 0 10px;
+}
+.footerwrapper .c-one-fourth {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.copy-right {
+	text-align: center;
+}
+.newslettercon {
+	position: relative;
+}
+.readmorebtn {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.slider1 {
+	height: auto;
+}
+.c-one-fifth{
+	width:100%;
+}
+}
+/**********************************************RESPONSIVE 480 END**********************************************/
+
+/**********************************************RESPONSIVE 767 START**********************************************/
+@media (max-width: 767px) {
+.mainnav {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+}
+/**********************************************RESPONSIVE 767 END**********************************************/
+
+/**********************************************RESPONSIVE 768 AND 979 START**********************************************/
+@media (min-width: 768px) and (max-width: 979px) {
+.mainnav {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+}
+/**********************************************RESPONSIVE 768 AND 979 END**********************************************/
