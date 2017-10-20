@@ -1,4 +1,4 @@
-/* Getting the new tags to behave */
+#a39d95/* Getting the new tags to behave */
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {
 	display:block
 }
@@ -90,7 +90,7 @@ input, select, textarea {
 	position:relative;
 }
 .topmenu2 {
-	background:url(../images/topbg2.png) repeat;
+	background:url(../images/banner_background2.png) repeat;
 	min-height:93px;
 	width:100%;
 	overflow:hidden;
@@ -198,7 +198,7 @@ input, select, textarea {
 }
 .nav ul li:hover ul{
 	display:block;
-	
+
 }
 .list-nav{
 	display:none;
@@ -212,7 +212,7 @@ input, select, textarea {
 	margin:5px;
 }
 .banner {
-	background:url(../images/banner-bg.jpg) repeat-x bottom #fff;
+	background:url(../images/banner_background2.p) repeat-x bottom #fff;
 	padding:13px 13px 17px;
 	margin:52px auto 1px;
 	max-width:990px;
@@ -329,7 +329,7 @@ input, select, textarea {
 	position:relative;
 	width:100%;
 	overflow: hidden;
-	
+
 }
 .nivoSlider img {
 	position:absolute;
@@ -519,15 +519,24 @@ input, select, textarea {
 }
 .mainwrapper h2 {
 	font-family:TrocchiRegular;
+	text-transform: capitalize;
 	border-bottom:1px solid #c8c6c2;
 	padding:0 0 15px;
 	margin:0 0 15px;
-	font-size:22px;
+	/*font-size:22px;*/
 	width:100%;
 	line-height:22px;
 	color:#2e1308;
 	position:relative;
 	font-weight:normal;
+	font-weight: bold;
+}
+
+p.intro:first-line {
+    font-weight: bold;
+}
+p.intro:first-letter {
+    font-size:200%;
 }
 .aboutwrapper{
 	margin-top:30px;
@@ -539,7 +548,7 @@ input, select, textarea {
 	padding-bottom:30px;
 }
 .aboutwrapper .mainwrapper h2 {
-	border-bottom:none; 
+	border-bottom:none;
 	padding:0;
 }
 .aboutwrapper .mainwrapper p {
@@ -668,6 +677,149 @@ input, select, textarea {
 }
 /*--------------- slider ended here ---------------*/
 
+
+
+
+
+
+.koed_event_timer figcaption ul li span {
+    font-size: 36px;
+}
+style.css?ver=4.8.2:221
+.kode_donors_list .slick-prev:hover:before, .kode_donors_list .slick-next:hover:before, .kode_gallery3_wrap .slick-prev:hover:before, .kode_gallery3_wrap .slick-next:hover:before, .kode_team_profile .event_detail_list li a:hover i, .kode_team_profile .event_detail_list li a:hover span, .kode_team_profile .event_detail_list li a:hover, .kode_view_row .widget_social_icon li a:hover, .kode_shop_fig .shop_icon li a:hover, .kode_side_contact_text a, .kode_event_featured > a, .kode_service_form .kode_textarea textarea:focus, .kode_service_form .kf_commet_field input:focus, .kode_service_form .section_hdg p, .kode_service_form .section_hdg h3, .kode_project_text > span, .kode_portfolio_detail ul li a:focus, .kode_portfolio_detail ul li a.active, .kode_portfolio_detail ul li a:hover, .kode_contact_service ul li:hover .kode_contact_text p, .kode_contact_service ul li:hover .kode_contact_text > a, .kode_contact_service ul li:hover .kode_contact_text h5 a, .widget_event .kode_textarea textarea:focus, .widget_event .kf_commet_field input:focus, .kode_newsletter_form .kf_commet_field input:focus, .coming_social_icon li a, .kode_coming_text .kode_search .kf_commet_field button, .kode_coming_text h2, .countdown.timer li h5, .countdown.timer li span, .kode_404_text p, .kode_404_text h2 span, .sidebar_add figcaption h4, .sidebar_add figcaption h2, .sidebar_add figcaption h3, .social_meta li a, blockquote span, .kode_search .comment-form .kf_commet_field button:hover, .kode_pagination a:hover, .kode_blog_des figure .expand_btn:hover, .kode_blog_des:hover .kode_blog_text .share_link, .kode_client_wrap.client_3 .slick-prev:before, .kode_client_wrap.client_3 .slick-next:before, .kode_philosophy_text span, .kode_mosque_row.mosque figure a, .sab_banner_text a:hover span, .sab_banner_text h2, .kode_amount_list span:hover, .kode_pillars_item li a:hover h6, .kode_pillars_item li a:hover span, .navigation ul li .active, .navigation ul li a:hover, .widget_event.event_2 .kode_calender_list:hover > span, .kode_event_fig a, .kode_canvas_detail.canvas_2 > span, .kode_building_text p, .kode_building_text h3, .kode_building_text h4, .kode_banner_wrap.banner2 .slick-prev:before, .kode_banner_wrap.banner2 .slick-next:before, .kode_navi_icon li a:hover, .donate_btn button.close:hover, .kode_top2_icon .dropdown ul li a, .copyright_text p, .top_btn, .widget_event .kode_event_text h6 a, .widget_title, .widget_social_icon li a, .widget_call_info li a, .widget_logo p, .kode_newsletter_text p, .kode_newsletter_text h5 a, .kode_product_list .slick-prev:before, .kode_product_list .slick-next:before, .kode_product_list h6, .kode_product_list > h5, .kode_calender_list > span, .koed_event_timer figcaption ul li p, .koed_event_timer figcaption ul li span, .kode_blog_fig .plus_icon:hover, .kode_canvas_detail .progress-bar div span, .kode_canvas_text h5, .kode_cause_text p, .kode_team_wrap .slick-prev:before, .kode_team_wrap .slick-next:before, .kode_social_icon li a, .kode_tem_fig figcaption p, .kode_tem_fig figcaption h4, .kode_gallery_fig a:hover, .kode_service_text .right_arrow:hover, .kode_service_des:hover .kode_service_text span, .kode_service_des:hover .kode_service_text span i, .kode_mosque_item .koed_banner_btn .medium_btn:hover, .section_hdg.hdg_2 h3, .kode_mosque_fig figcaption h6 a, .drop_deta a, .kode_paly_text p, .kode_paly_text h6, .small_text, .mediume_text, .large_text, .top_time_circle ul li span, .top_time_circle ul li a {
+    color: #fff;
+}
+themetypo.css?ver=4.8.2:2
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+bootstrap.css?ver=4.8.2:314
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+Inherited from li
+style.css?ver=4.8.2:1797
+.koed_event_timer figcaption ul li {
+    float: left;
+    margin-right: 40px;
+    width: auto;
+    list-style: none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+themetypo.css?ver=4.8.2:606
+li {
+    float: left;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+Inherited from ul#countdown-1.countdown.downcount
+shortcode.css?ver=4.8.2:418
+.kode_event_des ul {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    position: relative;
+    list-style: none;
+    line-height: 12px;
+}
+themetypo.css?ver=4.8.2:599
+ul {
+    list-style: disc;
+}
+themetypo.css?ver=4.8.2:591
+ul, ol {
+    list-style: none;
+    margin: 0 0 8px 20px;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+Inherited from body#home.home.page-template-default.page.page-id-117.sticky-sidebar-enable
+style-custom.css?ver=4.8.2:48
+body, p {
+    text-transform: none;
+}
+style-custom.css?ver=4.8.2:47
+body, p {
+    letter-spacing: 0.2px;
+}
+style-custom.css?ver=4.8.2:46
+body, p {
+    font-weight: 400;
+}
+style-custom.css?ver=4.8.2:44
+body, p {
+    font-size: 14px;
+}
+style-custom.css?ver=4.8.2:43
+body, p {
+    font-family: Open Sans;
+}
+themetypo.css?ver=4.8.2:253
+body {
+    color: #666666;
+    font-weight: normal;
+}
+themetypo.css?ver=4.8.2:247
+body, button, input, select, textarea {
+    color: #2b2b2b;
+    font-weight: 400;
+    line-height: 1.5;
+}
+themetypo.css?ver=4.8.2:9
+body {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff;
+}
+/*bootstrap.css?ver=4.8.2:329*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #373a3c;
+    background-color: #fff;
+}
+/*Inherited from html.js.no-touch.cssanimations.csstransitions
+bootstrap.css?ver=4.8.2:323*/
+html {
+    font-size: 16px;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+/*bootstrap.css?ver=4.8.2:8*/
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
 /*--------------- Start CSS for grid ---------------*/
 .grid:after {
 	clear: both;
@@ -691,6 +843,27 @@ input, select, textarea {
 .grid p {
 	margin:0 0 15px;
 	padding:0;
+	line-height: 1.618;
+	font-size: 1.2em;
+	text-indent: 20px;
+	letter-spacing: 0.02em
+	font-family: Palatino, Georgia, serif;
+	max-width: 32em;
+}
+.ziar {
+	font-size: 19px;
+	font-family: "Times", sans-serif;
+}
+.suite {
+	margin:15px;
+	padding:0;
+	line-height: 1.618;
+	font-size: 1.5em;
+	text-indent: 20px;
+	letter-spacing: 0.02em
+	font-family: Palatino, Georgia, serif;
+	display: inline-block;
+
 }
 .grid p a {
 	color:#595959;
@@ -749,8 +922,8 @@ input, select, textarea {
 }
 
 
-/*--------------- End CSS for grid ---------------*/	
-	
+/*--------------- End CSS for grid ---------------*/
+
 .rightconteam {
 	float:right;
 }
@@ -872,7 +1045,7 @@ input, select, textarea {
 	list-style: none;
 }
 /* FlexSlider Necessary Styles
----------------   */ 
+---------------   */
 .slides > li {
 	display: none;
 	-webkit-backface-visibility: hidden;
@@ -1015,16 +1188,6 @@ html[xmlns] .slides {
 }
 /*--------------- End FlexSlider Default Theme ---------------*/
 
- @media screen and (max-width: 860px) {
- .flex-direction-nav .flex-prev {
-opacity: 1;
-left: 0;
-}
- .flex-direction-nav .flex-next {
-opacity: 1;
-right: 0;
-}
-}
 /*--------------- slider ended here ---------------*/
 
 /*--------------- Testimonial start here ---------------*/
@@ -1699,7 +1862,7 @@ right: 0;
 	background-color:#53b808;
 }
 #horizontal-tabs ul.tabs li, #horizontal-tabs .tabscontent, #vertical-tabs ul.tabs li, #vertical-tabs .tabscontent, .pagination li a, .breadcrumbs.gray, .tables-column .list li.even, #toggle-view li h3.normal {
-	background-color:#E4DFD9;
+	background-color:rgba(#060901, 0.14);
 }
 .services .item .square, .js .selectnav, .testimonials .author, .clients ul.items li, .date2, .date3, .icon-box, .pagination li, img.pic-2, .image-post.left, .prev-post, .avatar, .form-box {
 	float: left;
@@ -1755,7 +1918,7 @@ right: 0;
 	border:0;
 }
 /* inner-page-CSS-End*/
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
 
 .patern{
 	width:40%;
@@ -1803,9 +1966,9 @@ right: 0;
 .mainnav{
 	padding:15px;
 }
-}
+}*/
 /* 480 x 640 (small tablet) */
-@media screen and (max-width: 640px) {
+/*@media screen and (max-width: 640px) {
 .patern{
 	width:40%;
 }
@@ -1818,9 +1981,9 @@ right: 0;
 .clientcon {
  width:90%;
 }
-}
+}*/
 /* 320 x 480 (iPhone) */
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
 .logo{
 	float:none;
 	margin:30px auto;
@@ -1891,11 +2054,10 @@ right: 0;
 	position:relative;
 	overflow:inherit;
 }
-}
+}*/
 /* 240 x 320 (small phone) */
-@media screen and (max-width:320px) {
+/*@media screen and (max-width:320px) {
 
 }
 @media screen and (max-width: 240px) {
-}
-
+}*/

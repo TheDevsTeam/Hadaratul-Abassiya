@@ -52,10 +52,10 @@
 /* Accordion
 =========================================================*/
 .ui-accordion .ui-accordion-header {
-	display: block; 
-	cursor: pointer; 
-	position: relative; 
-	zoom: 1; 
+	display: block;
+	cursor: pointer;
+	position: relative;
+	zoom: 1;
 }
 
 #accordion h3 {
@@ -93,12 +93,12 @@
 	position: absolute;
 	left: .5em;
 	top: 50%;
-	margin-top: -8px; 
+	margin-top: -8px;
 }
 
 .ui-accordion .ui-accordion-content {
 	overflow: hidden;
-	zoom: 1; 
+	zoom: 1;
 }
 /* Progress Bar
 =========================================================*/
@@ -121,8 +121,8 @@
 	list-style:none;
 }
 
-.meter { 
-	height: 23px; 
+.meter {
+	height: 23px;
 	position: relative;
 }
 
@@ -136,9 +136,9 @@
 .meter > span:after, .animate > span > span {
 	content: "";
 	position: absolute;
-	top: 0; 
-	left: 0; 
-	bottom: 0; 
+	top: 0;
+	left: 0;
+	bottom: 0;
 	right: 0;
 	overflow: hidden;
 }
@@ -189,21 +189,21 @@
 
 #horizontal-tabs ul.tabs li {
 	float:left;
-	padding:9px 18px;
+	padding:9px 21px;
 	cursor:pointer;
 	color:#2e1308;
-	font: normal 13px TrocchiRegular;
+	font: normal 15px TrocchiRegular;
 	list-style:none;
 	margin-right:2px;
 }
 #horizontal-tabs ul.tabs li.current{
-	color:#c45c27;
+	color:#050200;
 	padding: 10px 18px;
 }
 #horizontal-tabs .tabscontent {
 	padding:15px;
 	display:none;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #horizontal-tabs .tabscontent.no-padding {
@@ -236,6 +236,7 @@
 	width:100%;
 	color:#2E1308;
 	font: normal 13px TrocchiRegular;
+
 }
 #vertical-tabs ul.tabs li.current{
 	color:#C45C27;
@@ -279,7 +280,7 @@
 }
 #toggle-view span.link {
 	position:absolute;
-	right:10px; 
+	right:10px;
 	top:6px;
 }
 
@@ -313,11 +314,11 @@ blockquote {
 .colorTip{
 	/* This class is assigned to the color tip span by jQuery */
 	display:none;
-	position:absolute;	
+	position:absolute;
 	left:50%;
 	top:-30px;
 	padding:6px;
-	
+
 	background-color:white;
 	font-family:Arial,Helvetica,sans-serif;
 	font-size:11px;
@@ -327,7 +328,7 @@ blockquote {
 	text-align:center;
 	text-shadow:0 0 1px white;
 	white-space:nowrap;
-	
+
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
 	border-radius:2px;
