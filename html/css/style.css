@@ -281,21 +281,21 @@
 		KODE NAVIGATION WRAP START
 	=======================================
 */
-.navigation ul,
-.navigation,
-.kode_navigation_wrap{
+.navbar-main ul,
+.navbar-main,
+.kode_navbar-main_wrap{
 	float:left;
 	width:100%;
 }
-.navigation ul{
+.navbar-main ul{
 	text-align:center;
 }
-.navigation > ul > li{
+.navbar-main > ul > li{
 	display:inline-block;
 	margin-left:5px;
 	position:relative;
 }
-.navigation > ul > li > a{
+.navbar-main > ul > li > a{
 	color: #333333;
     display: inline-block;
     font-size: 16px;
@@ -304,8 +304,8 @@
 	position:relative;
 	z-index:999;
 }
-.navigation ul li ul li a:before,
-.navigation > ul > li > a:before{
+.navbar-main ul li ul li a:before,
+.navbar-main > ul > li > a:before{
 	position:absolute;
 	content:"";
 	top:100px;
@@ -314,12 +314,12 @@
 	bottom:0px;
 	z-index:-1;
 }
-.navigation > ul > li > a:hover:before{
+.navbar-main > ul > li > a:hover:before{
 	top:0px;
 }
 /*drop down style*/
-/*navigation dropdown start*/
-.navigation > ul > li  > ul{
+/*navbar-main dropdown start*/
+.navbar-main > ul > li  > ul{
 	position:absolute;
 	top:80px;
 	width:200px;
@@ -330,15 +330,15 @@
 	border-top:2px solid;
 	background:#fff;
 }
-.navigation > ul > li:hover > ul{
+.navbar-main > ul > li:hover > ul{
 	opacity:1;
 	visibility:visible;
 	top:60px;
 }
-.navigation > ul > li > ul > li{
+.navbar-main > ul > li > ul > li{
 	width:100%;
 }
-.navigation > ul > li > ul  > li a{
+.navbar-main > ul > li > ul  > li a{
 	display:block;
 	padding:9px 20px;
 	text-align:left;
@@ -346,12 +346,12 @@
 	z-index:999;
 	font-weight:300;
 }
-.navigation > ul > li > ul > li a:before{
+.navbar-main > ul > li > ul > li a:before{
     right:100%;
     top: 0;
 	opacity:0;
 }
-.navigation  > ul > li > ul > li a:hover:before{
+.navbar-main  > ul > li > ul > li a:hover:before{
 	right:0;
 	opacity:1;
 }
@@ -360,7 +360,7 @@
 	width:auto;
 	padding:11px 0px 10px;
 }
-/*navigation dropdown end*/
+/*navbar-main dropdown end*/
 /*
 	=======================================
 		KODE NAVIGATION WRAP END
@@ -2162,6 +2162,7 @@ height: auto;
 }
 .header .kode_navigation_wrap{
 	padding:20px 0 18px;
+	color: white;
 }
 .header .top_logo{
 	float:left;

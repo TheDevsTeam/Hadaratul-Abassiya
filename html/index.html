@@ -30,6 +30,7 @@
 <link rel="stylesheet" href="css/jquery-plugin-progressbar.css" rel="stylesheet">
 <link rel="stylesheet" href="css/colored.css" rel="stylesheet">
 <link rel="stylesheet" href="css/typograph.css" rel="stylesheet">
+<link rel="stylesheet" href="css/navbar.less" rel="stylesheet">
 <!-- Responsive Style -->
 <link rel="stylesheet" href="css/update-responsive.css" type="text/css" media="screen">
 <!-- icons style -->
@@ -40,10 +41,12 @@
 <link rel="stylesheet" href="css/colors-scheme.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/javascri.css" type="text/css" media="all">
 <!-- Start JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="nr_1059.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script src="nr_1059.min.js"></script> -->
 <script src="js/bootstrap.js"></script>
+<script src="js/epic.js"></script>
+<script src="js/linkid.js"></script>
 <script src="js/jquery-1.js"></script><!-- jQuery library -->
 <script src="js/jquery-u.js"></script><!-- jQuery Ui -->
 <script src="js/ddsmooth.js"></script><!-- Nav Menu ddsmoothmenu -->
@@ -106,9 +109,40 @@
 
 
 
-
-
-      <div class="mainnav">
+      <nav id="navbar-main" class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Madrassa Abassiya</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="abass_bio.html">BIO</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+     <!--  <div class="mainnav">
   <nav class="mainwrapper nav">
     <ul>
       <li><a href="index.html" class="current">Home</a>
@@ -198,17 +232,17 @@
 
     </select></form>
   </nav>
-</div>
+</div> -->
 
     <!-- </section> -->
     <div class="banner">
       <div class="slider-wrapper theme-default">
         <div id="slider" class="nivoSlider">
-          <img src="images/abass.jpg"  data-thumb="images/toystory.jp" alt="" title="#htmlcaption01" />
-          <img src="images/serigne_abass_sall_seydou_nourou_tall.jpg"   data-thumb="images/up.jpg"        alt="" title="#htmlcaption02" />
-          <img src="images/abass2.jpg"  data-thumb="images/walle.jpg"     alt="" data-transition="slideInLeft" title="#htmlcaption03" />
-          <img src="images/abdou&abass.jpg"   data-thumb="images/nemo.jpg"      alt="" title="#htmlcaption04" />
-          <img src="images/ibnabass136.jpg"   data-thumb="images/nemo.jpg"      alt="" title="#htmlcaption04" />
+          <img src="images/abass.jpg"  data-thumb="" alt="" title="#htmlcaption01" />
+          <img src="images/serigne_abass_sall_seydou_nourou_tall.jpg"   data-thumb=""        alt="" title="#htmlcaption02" />
+          <img src="images/abass2.jpg"  data-thumb=""     alt="" data-transition="slideInLeft" title="#htmlcaption03" />
+          <img src="images/abdou&abass.jpg"   data-thumb=""      alt="" title="#htmlcaption04" />
+          <img src="images/ibnabass136.jpg"   data-thumb=""      alt="" title="#htmlcaption04" />
         </div>
         <div id="htmlcaption01" class="nivo-html-caption">
           <div class="numbercon"> &lt; 1 &gt; </div>

@@ -60,7 +60,8 @@
 .navigation ul li ul{
 	position: absolute;
 	left: 0;
-	display: none; /*collapse all sub menus to begin with*/
+	/*display: none;*/
+	 /*collapse all sub menus to begin with*/
 	visibility: hidden;
 }
 

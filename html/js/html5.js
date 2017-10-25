@@ -32,3 +32,15 @@ document.createElement("source");
 document.createElement("summary");
 document.createElement("time");
 document.createElement("video");
+
+
+
+  var affixElement = '#navbar-main';
+  $(affixElement).affix({
+    offset: {
+      // Distance of between element and top page
+      top: function () {
+        return (this.top = $(affixElement).offset().top)
+      },
+    }
+  });

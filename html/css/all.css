@@ -135,18 +135,18 @@ input, select, textarea {
 	display:block;
 }
 
-.mainnav {
+/*.mainnav {
 	background-color:#2e1308;
 	width:100%;
 	border-bottom:5px solid #fcbf9f;
 	position:relative;
 	z-index:999;
-}
-.nav {
+}*/
+/*.nav {
 	width:100%;
 	line-height:50px;
-}
-.nav:after {
+}*/
+/*.nav:after {
 	clear: both;
 	content: "";
 	display: block;
@@ -156,8 +156,8 @@ input, select, textarea {
 .nav ul {
 	margin:0;
 	padding:0;
-}
-.nav ul li {
+}*/
+/*.nav ul li {
 	list-style:none;
 	float:left;
 	margin-left:1px;
@@ -171,8 +171,8 @@ input, select, textarea {
 	padding:0 22px;
 	display:block;
 	position:relative;
-}
-.nav ul li a:hover, .nav ul li a.current {
+}*/
+/*.nav ul li a:hover, .nav ul li a.current {
 	background:#FCBF9F;
 	color:#2E1308;
 	text-decoration:none;
@@ -187,8 +187,8 @@ input, select, textarea {
 	left:0;
 	top:43px;
 	padding-bottom:5px;
-}
-.nav ul li ul li{
+}*/
+/*.nav ul li ul li{
 	float:none;
 	margin:0;
 }
@@ -210,7 +210,7 @@ input, select, textarea {
 }
 .list-nav option{
 	margin:5px;
-}
+}*/
 .banner {
 	background:url(../images/banner_background2.p) repeat-x bottom #fff;
 	padding:13px 13px 17px;
