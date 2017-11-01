@@ -161,12 +161,19 @@
 // Brand/project name
 
 .navbar-brand {
-  float: left;
-  padding: @navbar-padding-vertical @navbar-padding-horizontal;
-  font-size: @font-size-large;
-  line-height: @line-height-computed;
-  height: @navbar-height;
-
+  display: block;
+  float: none;
+  margin-top: .5rem;
+  margin-right: 0;
+  /*float: left;*/
+  position: relative;
+  color: rgba(0, 0, 0, .6);
+  text-transform: uppercase;
+  text-shadow: none;
+  font-weight: 600;
+  /*margin-right: 1rem;*/
+  font-size: 1.25rem;
+  line-height: inherit;
   &:hover,
   &:focus {
     text-decoration: none;
@@ -411,12 +418,15 @@
 
   .navbar-nav {
     > li > a {
-      color: @navbar-default-link-color;
+      color:red;
+      //  @navbar-default-link-color;
 
       &:hover,
       &:focus {
-        color: @navbar-default-link-hover-color;
-        background-color: @navbar-default-link-hover-bg;
+        color: red;
+        // @navbar-default-link-hover-color;
+        background-color: yellow;
+        // @navbar-default-link-hover-bg;
       }
     }
     > .active > a {
